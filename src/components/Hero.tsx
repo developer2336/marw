@@ -12,8 +12,9 @@ export default function Hero() {
             </h1>
           </div>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-            Upload your student or candidate answers. Get instant AI-powered marks, 
-            feedback, and corrections using Google Gemini. No login required. Try the beta now.
+            Upload student or candidate answers. Get real-time marks, intelligent feedback,
+            and instant corrections – powered by our in-house AI engine. No login required.
+            Try the beta now.
           </p>
         </div>
 
@@ -23,7 +24,9 @@ export default function Hero() {
               <Zap className="h-8 w-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Instant Analysis</h3>
-            <p className="text-gray-600 text-sm">Get comprehensive feedback in seconds using Google Gemini AI</p>
+            <p className="text-gray-600 text-sm">
+              Our custom-built AI model reviews and responds in seconds – no human needed.
+            </p>
           </div>
 
           <div className="flex flex-col items-center">
@@ -31,7 +34,9 @@ export default function Hero() {
               <GraduationCap className="h-8 w-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Smart Scoring</h3>
-            <p className="text-gray-600 text-sm">Accurate scoring out of 10 with detailed mistake identification</p>
+            <p className="text-gray-600 text-sm">
+              Automatic marking out of 10, with precise breakdown of where students went wrong.
+            </p>
           </div>
 
           <div className="flex flex-col items-center">
@@ -39,12 +44,14 @@ export default function Hero() {
               <Shield className="h-8 w-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">No Login Required</h3>
-            <p className="text-gray-600 text-sm">Start evaluating immediately without any registration hassle</p>
+            <p className="text-gray-600 text-sm">
+              Start using MarkWise instantly. No signups, no delays – just upload and go.
+            </p>
           </div>
         </div>
 
         <div className="text-sm text-gray-500">
-          Perfect for teachers, recruiters, and trainers • Powered by Google Gemini AI
+          Built by <span className="font-medium text-gray-800">IT Atmoz</span> • Empowering educators, recruiters, and trainers with AI-first tools
         </div>
       </div>
     </div>
